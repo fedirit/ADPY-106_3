@@ -51,4 +51,5 @@ for news in news_list:
     res = any(elem in full_search_string_adaptive for elem in KEYWORDS)
 
     if res == True:
+        # print(full_search_string_adaptive)
         print(f'{article_time} - {article_preview_name} - {'https://habr.com'+article_preview_link}')
